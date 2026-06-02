@@ -77,6 +77,15 @@ h1, h2, h3, h4 {
   color: var(--color-white);
   text-decoration: none;
   transition: color 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo-img {
+  height: 38px;
+  width: auto;
+  border-radius: 6px;
 }
 
 .navbar.scrolled .nav-logo {
@@ -180,6 +189,14 @@ h1, h2, h3, h4 {
   z-index: 1;
   padding: 0 24px;
   max-width: 700px;
+}
+
+.hero-logo {
+  width: clamp(180px, 28vw, 280px);
+  height: auto;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 }
 
 .hero-content h1 {
@@ -565,6 +582,13 @@ h1, h2, h3, h4 {
   align-items: flex-start;
   padding-bottom: 40px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-logo {
+  height: 60px;
+  width: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
 }
 
 .footer-brand h3 {
