@@ -159,7 +159,7 @@ h1, h2, h3, h4 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(135deg, #5b7e6b 0%, #3d5a4a 50%, #2c4438 100%);
+  background: linear-gradient(135deg, #6bb58e 0%, #4a9b72 50%, #3a8a60 100%);
   overflow: hidden;
 }
 
@@ -462,7 +462,7 @@ h1, h2, h3, h4 {
 /* Booking */
 .booking {
   padding: 80px 0;
-  background: linear-gradient(rgba(44, 68, 56, 0.85), rgba(44, 68, 56, 0.85)), url('images/lighttowel.png') center center / cover no-repeat;
+  background: linear-gradient(rgba(58, 138, 96, 0.88), rgba(74, 155, 114, 0.88)), url('images/lighttowel.png') center center / cover no-repeat;
   text-align: center;
 }
 
