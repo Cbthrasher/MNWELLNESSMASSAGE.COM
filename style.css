@@ -72,14 +72,15 @@ h1, h2, h3, h4 {
 
 .nav-logo {
   font-family: var(--font-heading);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--color-white);
   text-decoration: none;
   transition: color 0.3s;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+  white-space: nowrap;
 }
 
 .nav-logo-img {
@@ -95,7 +96,7 @@ h1, h2, h3, h4 {
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 24px;
+  gap: 20px;
   align-items: center;
 }
 
@@ -103,9 +104,10 @@ h1, h2, h3, h4 {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9);
   font-weight: 400;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   transition: color 0.3s;
   letter-spacing: 0.3px;
+  white-space: nowrap;
 }
 
 .navbar.scrolled .nav-links a {
@@ -119,8 +121,9 @@ h1, h2, h3, h4 {
 .nav-cta {
   background: var(--color-accent);
   color: var(--color-white) !important;
-  padding: 10px 24px;
+  padding: 8px 18px;
   border-radius: 6px;
+  font-size: 0.9rem;
   transition: background 0.3s, transform 0.2s;
 }
 
@@ -631,6 +634,30 @@ h1, h2, h3, h4 {
   padding: 20px 0;
   text-align: center;
   font-size: 0.85rem;
+}
+
+/* Tablet / small desktop */
+@media (max-width: 1200px) and (min-width: 961px) {
+  .nav-logo {
+    font-size: 1.05rem;
+  }
+
+  .nav-logo-img {
+    height: 32px;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .nav-links a {
+    font-size: 0.85rem;
+  }
+
+  .nav-cta {
+    padding: 7px 14px;
+    font-size: 0.85rem;
+  }
 }
 
 /* Mobile */
