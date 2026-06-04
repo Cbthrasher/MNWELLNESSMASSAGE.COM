@@ -7,9 +7,9 @@
 }
 
 :root {
-  --color-primary: #5b7e6b;
-  --color-primary-dark: #4a6a59;
-  --color-primary-light: #e8f0eb;
+  --color-primary: #34b36a;
+  --color-primary-dark: #2da35e;
+  --color-primary-light: #dff5e8;
   --color-accent: #c9a96e;
   --color-accent-dark: #b8944f;
   --color-text: #2c2c2c;
@@ -159,7 +159,7 @@ h1, h2, h3, h4 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(135deg, #8eddb2 0%, #6ccf98 50%, #55c080 100%);
+  background: linear-gradient(135deg, #a2f0c0 0%, #80e8a6 50%, #68dc90 100%);
   overflow: hidden;
 }
 
@@ -462,7 +462,7 @@ h1, h2, h3, h4 {
 /* Booking */
 .booking {
   padding: 80px 0;
-  background: linear-gradient(rgba(85, 192, 128, 0.88), rgba(108, 207, 152, 0.88)), url('images/lighttowel.png') center center / cover no-repeat;
+  background: linear-gradient(rgba(104, 220, 144, 0.85), rgba(128, 232, 166, 0.85)), url('images/lighttowel.png') center center / cover no-repeat;
   text-align: center;
 }
 
